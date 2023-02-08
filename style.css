@@ -116,6 +116,7 @@ i {
 @media (max-width: 540px) {
   .container {
     margin: 0 auto;
-    width: 300px;
+    width: 667px;
+    height: 1410px;
   }
 }
