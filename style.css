@@ -1,0 +1,121 @@
+#profile-pic-round {
+  border-radius: 50%;
+  box-shadow: 0px 0px 30px rgb(182, 75, 75);
+  display: block;
+  margin: 5px auto;
+}
+
+.title-style {
+  color:rgb(182, 75, 75);
+  font-size: 30px;
+  background-color: rgba(202, 188, 188);
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px;
+  display: inline-block;
+  text-shadow: 0 0 1px #FF0000, 0 0 2px black;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+  background-image: url("images/test3.jpg");
+  background-attachment: fixed;
+  text-align:center;
+  font-family: 'Unbounded', cursive;
+}
+
+.hobbies-style h2 {
+  color:rgb(182, 75, 75);
+  text-shadow: 0 0 1px #FF0000, 0 0 2px black;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.hobbies-style {
+  margin: 10px auto;
+  border: 3px solid;
+  border-radius: 10px;
+  background-color: rgb(205, 205, 205);
+  width: 600px;
+  padding: 40px;
+  box-shadow: 0px 0px 20px rgb(182, 75, 75);
+}
+
+.text_align {
+  margin: 5px auto;
+  width: 300px;
+  padding: 40px;
+  border: 3px solid;
+  border-radius: 10px;
+  background-color: rgb(205, 205, 205);
+  box-shadow: 0px 0px 20px rgb(182, 75, 75);
+}
+
+#link-button {
+  background-color: rgb(182, 75, 75);
+  color: white;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-decoration: none;
+  box-shadow: 0px 0px 20px rgb(243, 227, 227);
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.list-style {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-style li {
+  display: inline;
+  padding: 10px;
+}
+
+i {
+  font-size: 50px;
+  color: rgb(182, 75, 75);
+  text-shadow: 0 0 5px #fdfafa, 0 0 20px rgb(239, 232, 232);
+}
+
+.follow-me {
+  margin: 5px auto;
+  color: rgb(182, 75, 75);
+  text-shadow: 0 0 5px #fdfafa, 0 0 20px rgb(239, 232, 232);
+}
+
+.container {
+  margin: 10px auto;
+  width: 1000px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 100px rgb(182, 75, 75);
+}
+
+@media (max-width: 960px) {
+   .container {
+    margin: 0 auto;
+    width: 700px;
+
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    margin: 0 auto;
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    margin: 0 auto;
+    width: 300px;
+  }
+}
